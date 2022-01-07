@@ -74,6 +74,15 @@
 
 (show-paren-mode 1)
 
+;; To disable the menu bar, place the following line in your .emacs file:
+(menu-bar-mode -1)
+
+;; To disable the scrollbar, use the following line:
+(toggle-scroll-bar -1)
+
+;; To disable the toolbar, use the following line:
+(tool-bar-mode -1)
+
 ;; Need to load custom file to avoid being overwritten
 ;; more at https://www.gnu.org/software/emacs/manual/html_node/emacs/Saving-Customizations.html
 (load custom-file)
